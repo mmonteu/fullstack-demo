@@ -1,0 +1,18 @@
+Prérequis :
+	- Doc Symfony : https://www.php.net/manual/fr/index.php
+	- Wamp/Mamp à jour
+	- Php à jour (Variable d'environnement => Variables système => PATH => C:\wamp\bin\php\phpx.x.xx)
+	- PhpStorm/SublimeText/Visual Studio Code à jour
+		- Installer PackageControl pour SublimeText
+		- Se rendre sur https://packagecontrol.io/installation
+		- Ouvrir la commande : Ctrl + Shift + P, écrire Package Control: Install Package
+		- Différent Packages : (Emmet, Future Funk, SideBarEnhancements, SublimeLinter, SublimeLinter-php, SublimeCodeIntel, Twig)
+		- Dracula Theme : https://draculatheme.com/
+
+Création projet :
+	- Créer le projet :
+		- index.php 
+		- header.php <?php require 'header.php'; ?>
+		- footer.php <?php require 'footer.php'; ?>
+	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -s localhost:8000)
+	- http://localhost:8000/
