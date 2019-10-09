@@ -16,3 +16,5 @@ Création projet :
 		- footer.php <?php require 'footer.php'; ?>
 	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -s localhost:8000)
 	- http://localhost:8000/
+
+Page
