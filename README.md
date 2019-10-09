@@ -6,7 +6,7 @@
 ![CSS](https://img.shields.io/badge/css-v.4.0-brightgreen)
 ![SYMFONY](https://img.shields.io/badge/framework-symfony%204.0-blue)
 ![BOOTSTRAP](https://img.shields.io/badge/framework-bootstrap%204.3-blue)
-![Twitter](https://img.shields.io/twitter/follow/Marc_Monteu?label=Marc_Monteu&style=social)](https://twitter.com/Marc_Monteu)
+[![Twitter](https://img.shields.io/twitter/follow/Marc_Monteu?label=Marc_Monteu&style=social)](https://twitter.com/Marc_Monteu)
 
 
 Ceci est un projet demo en php. :computer:
