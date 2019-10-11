@@ -11,8 +11,9 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="css/style.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 
   <link rel="icon" href="https://i.pinimg.com/originals/60/17/03/6017037e430534b5cbc0ffbd7a1e7b52.jpg" type="image/x-icon">
 
@@ -48,7 +49,7 @@
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
 
-      <img class="masthead-avatar mb-5" src="img/avataaars.png" alt="">
+      <img class="masthead-avatar mb-5" src="/img/avataaars.png" alt="">
 
       <h1 class="masthead-heading text-uppercase mb-0">FullStack - Demo</h1>
 

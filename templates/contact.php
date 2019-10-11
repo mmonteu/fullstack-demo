@@ -3,7 +3,7 @@
   <section class="page-section" id="contact">
     <div class="container">
 
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Envoyer votre message</h2>
 
       <div class="divider-custom">
         <div class="divider-custom-line"></div>

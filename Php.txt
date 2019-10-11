@@ -14,5 +14,5 @@ Création projet :
 		- index.php 
 		- header.php <?php require 'header.php'; ?>
 		- footer.php <?php require 'footer.php'; ?>
-	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -s localhost:8000)
+	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -S localhost:8000)
 	- http://localhost:8000/

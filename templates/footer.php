@@ -2,16 +2,16 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <h4 class="text-uppercase mb-4">Me contacter</h4>
+          <p class="lead mb-0"><a href="mailto:marc.monteu@gmail.com">marc.monteu@gmail.com</a></p>
+          <p class="lead mb-0"><a href="tel:+33698329065">06 98 32 90 65</a></p>
         </div>
 
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <h4 class="text-uppercase mb-4">Mes réseaux</h4>
           <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
+            <i class="fab fa-fw fa-github"></i>
           </a>
           <a class="btn btn-outline-light btn-social mx-1" href="#">
             <i class="fab fa-fw fa-twitter"></i>
@@ -19,15 +19,6 @@
           <a class="btn btn-outline-light btn-social mx-1" href="#">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
-
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
         </div>
 
       </div>
@@ -37,7 +28,7 @@
 
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; FullStack-Demo 2019</small>
     </div>
   </section>
 
@@ -56,6 +47,8 @@
   <script src="js/contact_me.js"></script>
 
   <script src="js/freelancer.min.js"></script>
+
+  <script src="js/script.js"></script>
 
 </body>
 
