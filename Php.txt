@@ -16,6 +16,7 @@ Création projet :
 		- header.php <?php require 'header.php'; ?>
 		- footer.php <?php require 'footer.php'; ?>
 	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -S localhost:8000)
+	- Lancer le server avec le repport des erreurs (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -S localhost:8000 -d error_reporting=E_ALL)
 	- http://localhost:8000/
 
 

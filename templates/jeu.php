@@ -2,12 +2,14 @@
 
 <pre><?php var_dump($_GET); ?></pre>
 
-<?php if ($_GET['chiffre'] > $aDeviner): ?>
-	Votre chiffre est trop grand
-<?php elseif ($_GET['chiffre'] < $aDeviner): ?>
-	Votre chiffre est trop petit
-<?php else: ?>
-	Bravo, <?= $aDeviner ?> est bien le chiffre 
+<?php if (isset($_GET['chiffre'])): ?>
+	<?php if ($_GET['chiffre'] > $aDeviner): ?>
+		Votre chiffre est trop grand
+	<?php elseif ($_GET['chiffre'] < $aDeviner): ?>
+		Votre chiffre est trop petit
+	<?php else: ?>
+		Bravo, <?= $aDeviner ?> est bien le chiffre 
+	<?php endif ?>
 <?php endif ?>
 
 
