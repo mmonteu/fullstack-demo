@@ -37,7 +37,7 @@
             <img class="img-fluid" src="img/portfolio/cake.png" alt="">
           </div>
         </div>
-
+        
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">

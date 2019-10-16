@@ -9,6 +9,7 @@ Prérequis :
 		- Différent Packages : (Emmet, Future Funk, SideBarEnhancements, SublimeLinter, SublimeLinter-php, SublimeCodeIntel, Twig)
 		- Dracula Theme : https://draculatheme.com/
 
+
 Création projet :
 	- Créer le projet :
 		- index.php 
@@ -16,3 +17,16 @@ Création projet :
 		- footer.php <?php require 'footer.php'; ?>
 	- Lancer le server (cmd => cd C:\WampServer\wamp64\www\xxx => $ php -S localhost:8000)
 	- http://localhost:8000/
+
+
+Création formulaire :
+	- <form action="/templates/jeu.php" method="GET">
+		- On appelle une action ici une page et on passe la method GET ou POST
+	- <input type="number" name="chiffre" placeholder="Entre 0 et 1000" value="<?= htmlentities($_GET['chiffre']) ?>">
+		- On donne un type à l'input, un nom, un placeholder et une value qui retourne la dernière valeur entré.
+		- L'entité htmlentities permet de protéger son formulaire. 
+	- <button type="submit">Deviner</button>
+		- On place un bouton de type submit pour valider les valeurs
+
+	- <pre><?php var_dump($_GET); ?></pre>
+		- Cela permet de visualiser clairement les éléments du formulaires, en particulier de la method GET.
