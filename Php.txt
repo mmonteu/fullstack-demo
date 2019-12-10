@@ -20,6 +20,10 @@ Création projet :
 	- http://localhost:8000/
 
 
+Connexion à la BDD :
+	- <?php $bdd = new PDO('mysql:host=localhost;dbname=jeux_video', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)); ?>
+
+
 Création formulaire :
 	- <form action="/templates/jeu.php" method="GET">
 		- On appelle une action ici une page et on passe la method GET ou POST
